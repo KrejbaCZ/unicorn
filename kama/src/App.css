@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  height: 100vh;
+}
+
+.text {
+  font-size: 2.5rem;
+  color: #f30303;
+  margin-bottom: 40px;
+
+  /* Přechod pro změnu barvy textu */
+  transition: color 0.6s ease, transform 0.6s ease;
+}
+
+/* Když se text změní, lehce se zvětší a změní barvu */
+.text-changed {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+.button {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+  transition: background 0.4s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #0958e0, #fb9302);
+  transform: scale(1.25);
+}
